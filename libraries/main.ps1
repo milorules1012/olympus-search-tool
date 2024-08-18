@@ -91,9 +91,8 @@ function Search-InputType {
 					("https://olympus-entertainment.com/admin/?app=core&module=members&controller=ip&ip=" + $value),
 					("https://ip-api.com/#" + $value),
 					("https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a" + $value + "&run=toolpage"),
-					("https://search.arin.net/rdap/?query=" + $value)
-					("https://www.ip-tracker.org/lookup.php?ip=" + $value),
-					("https://www.whois.com/whois/" + $value)
+					("https://search.arin.net/rdap/?query=" + $value),
+					("https://www.ip-tracker.org/lookup.php?ip=" + $value)
 				)
 			}
 			"UID" {
